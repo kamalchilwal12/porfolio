@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width,initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+        <!--this next link is going us to help in importing the icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+        <link rel="stylesheet" href="style.css">
+        <title>portfolio</title>
+    </head>
+    <body>
+        <div class="opacity"></div>
+<!--Main section-->
+    <div class="top">
+        <a href="#home"><i class="fa fa-arrow-up"></i></a>
+    </div>
+        <header>
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#hiring">Hiring</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="home" class="main-wrapper">
+            <div class="main-section">
+                <p>Hello, I am Kamal Chilwal . A front-end Developer</p>
+            </div>
+            <div class="buttons">
+                <a href="#hiring" class="button1"><button>Hire me</button></a>
+                <a href="#projects" class="button2"><button>Projects</button></a>
+            </div>
+        </div>
+        <!--Project section-->
+        <div id="projects" class="projects-wrapper">
+            <h1>My Projects</h1>
+            <div class="projects">
+                <div class="card">
+                    <a href="./project1/"><img src="./source/project1.jpeg" alt="project1"></a> 
+                    <a href="./project1/piechart.py">project1</a>
+                </div>
+                <div class="card">
+                    <a href="./project2/"><img src="./source/project2.jpeg" alt="project2"></a>
+                    <a href="./project2/tic.py">project2</a>
+                </div>
+                <div class="card">
+                    <a href="./project3/"><img src="./source/project3.jpeg" alt="project3"></a>
+                    <a href="./project3/num1.py">project3</a>
+                </div>
+            </div>
+
+            <a href=""><button class="more-projects">More Projects</button></a>
+        </div>
+            <!--Hire me section-->
+            <div id="hiring" class="hire-me-wrapper">
+                <h1>Fill the form form,I will be back with a quote</h1>
+
+                <div class="form">
+                    <form action="">
+                        <input type="text" name="name" placeholder="Name">
+                        <input type="email" name="Email" placeholder="E-mail">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Describe about work"></textarea>
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+                <footer>
+                    <a href="https://github.com/"><i class="fab fa-github"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://stackoverflow.com/"><i class="fab fa-stack-overflow"></i></a>
+                </footer>
+            </div>
+    </body>
+</html>
